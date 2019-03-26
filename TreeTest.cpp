@@ -16,6 +16,11 @@ int main() {
   threetree.insert(5);
   threetree.insert(7);
   threetree.insert(3);
+  threetree.insert(13);
+  threetree.insert(241);
+  threetree.insert(55);
+  threetree.insert(623);
+  threetree.insert(7324);
   
   ariel::Tree mytree;  
 
@@ -39,7 +44,7 @@ int main() {
   .CHECK_EQUAL (emptytree.size() ,0)
 
   
-  .CHECK_EQUAL (threetree.size(), 3)
+  .CHECK_EQUAL (threetree.size(), 8)
   .CHECK_EQUAL (threetree.root(), 5)
   .CHECK_EQUAL (threetree.parent(3), 5)
   .CHECK_EQUAL (threetree.parent(7), 5)
