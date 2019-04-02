@@ -39,7 +39,7 @@ class Tree {
     Node* create_node(int data);
     Node* create_node(Node* temp,int data); // create a node and send the parent node (so we can tell the new node who his daddy is)
     void remove(int i);
-    Node* remove_rec(Node *temp,int i);
+    void remove_rec(Node *temp,int i);
     Node* min(Node *temp);
     int size();
     bool contains(int i);

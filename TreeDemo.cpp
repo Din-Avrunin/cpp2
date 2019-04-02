@@ -23,8 +23,26 @@ int main() {
       // 7 is the root's right child.
     ariel::Tree threetree;
     threetree.insert(5);
+    // threetree.remove(5);
     threetree.insert(7);
-    threetree.insert(3);
+    threetree.insert(31);
+    threetree.insert(32);
+    threetree.insert(33);
+    threetree.insert(34);
+    threetree.insert(35);
+    threetree.insert(36);
+    threetree.insert(37);
+    threetree.insert(38);
+    threetree.insert(39);
+    threetree.insert(30);
+    threetree.insert(352);
+    threetree.insert(7);
+    threetree.remove(31);
+    threetree.remove(32);
+    threetree.remove(33);
+    threetree.remove(34);
+    threetree.remove(35);
+    threetree.remove(36);
     cout << "threetree: size=" << threetree.size() << " root=" << threetree.root() << endl << "   ";  // size=3, root=5.
     threetree.print();
     cout << endl;
